@@ -2,14 +2,14 @@ package models;
 
 import bicycles.BicycleBase;
 
-public class RoadBike extends BicycleBase {
+public class TandemBike extends BicycleBase {
 
-    private int accelerationSpeed = 11;
-    private int brakeSpeed = -4;
+    private int accelerationSpeed = 12;
+    private int brakeSpeed = -7;
 
     @Override
     public int accelerate() {
-        return changeSpeed(accelerationSpeed);
+       return changeSpeed(accelerationSpeed);
     }
 
     @Override

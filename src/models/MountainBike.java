@@ -1,29 +1,19 @@
 package models;
 
-import bicycles.Bicycle;
+import bicycles.BicycleBase;
 
-public class MountainBike implements Bicycle {
+public class MountainBike extends BicycleBase {
 
-    private int increasedAcceleration = 11;
-    private int decreasedSpeed = 4;
+    private int accelerationSpeed = 5;
+    private int brakeSpeed = -3;
 
     @Override
     public int accelerate() {
-        return this.increasedAcceleration;
+        return changeSpeed(accelerationSpeed);
     }
 
     @Override
     public int brake() {
-        return this.decreasedSpeed;
-    }
-
-    @Override
-    public int currentSpeed() {
-        return 0;
-    }
-
-    @Override
-    public int stop() {
-        return 0;
+       return changeSpeed(brakeSpeed);
     }
 }
