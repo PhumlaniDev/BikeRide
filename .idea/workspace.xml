@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/TandemBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/BicycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/BicycleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/MountainBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/models/MountainBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/RoadBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/models/RoadBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/RoadBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BicycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRide.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +83,37 @@
       <option name="presentableId" value="Default" />
       <updated>1587401818019</updated>
       <workItem from="1587401820334" duration="4133000" />
-      <workItem from="1587429928382" duration="5122000" />
+      <workItem from="1587429928382" duration="6021000" />
     </task>
+    <task id="LOCAL-00001" summary="intellij commit">
+      <created>1587435655561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587435655561</updated>
+    </task>
+    <task id="LOCAL-00002" summary="intellij commit">
+      <created>1587435736352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587435736352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="intellij commit">
+      <created>1587435777056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587435777056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="intellij commit">
+      <created>1587436011792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587436011792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intellij commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij commit" />
   </component>
 </project>
