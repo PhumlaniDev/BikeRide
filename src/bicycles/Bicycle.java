@@ -9,4 +9,6 @@ public interface Bicycle {
     int currentSpeed();
 
     int stop();
+
+    BicycleType getBicycleType();
 }

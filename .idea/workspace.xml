@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/FunRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/model/MountainBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/model/RoadBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/model/Tandem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BikeRide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeRide.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/BicycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/BicycleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/META-INF/BikeRide.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/META-INF/BikeRide.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BikeRide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/MountainBike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/RoadBike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/models/TandemBike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RoadBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/TandemBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BicycleTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -26,6 +50,10 @@
   <component name="ProjectId" id="1aoVE0ebu5bpU3mrD2KoDswaFh8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -41,19 +69,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bicycles" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BicycleTest.shouldAccelerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -84,6 +108,7 @@
       <updated>1587401818019</updated>
       <workItem from="1587401820334" duration="4133000" />
       <workItem from="1587429928382" duration="6021000" />
+      <workItem from="1588163389674" duration="12720000" />
     </task>
     <task id="LOCAL-00001" summary="intellij commit">
       <created>1587435655561</created>
@@ -117,7 +142,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -129,9 +154,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intellij commit" />
     <option name="LAST_COMMIT_MESSAGE" value="intellij commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1588174402473">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="445" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1588174402473" />
+    <state x="370" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588165396413">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="370" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.770@0.0.1280.770" timestamp="1588165396413" />
+    <state x="441" y="140" key="FileChooserDialogImpl" timestamp="1588164230716">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="441" y="140" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1588164230716" />
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1588174292991">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1588174292991" />
+    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1588174292991">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1588174292991" />
+    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1588174292990">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1588174292990" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1588174292991">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1588174292991" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1588164236606">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1588164236606" />
+    <state x="344" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588165681651">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="344" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.770@0.0.1280.770" timestamp="1588165681651" />
   </component>
 </project>
