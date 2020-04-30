@@ -1,9 +1,13 @@
-package bicycles;
+package bicycles.rides;
 
-public class BikeRideTwo extends BikeRideOne implements BikeRide {
+import bicycles.Bicycle;
+import bicycles.BikeRide;
+
+public class BikeRideThree extends BikeRideOne implements BikeRide {
 
     @Override
     public void ride(Bicycle bicycle) {
+        bicycle.accelerate();
         bicycle.accelerate();
         bicycle.accelerate();
         bicycle.brake();

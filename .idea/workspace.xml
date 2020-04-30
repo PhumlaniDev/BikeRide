@@ -19,12 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="intellij commit 30 apr 2020">
+    <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/rides/RideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/specs/SpecsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/model/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/model/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/model/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/model/RoadBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/model/Tandem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/model/Tandem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/BicycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/BicycleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/specification/BicycleFromSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/specification/BicycleSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BicycleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,12 +82,12 @@
       <recent name="bicycles" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BicycleTest.showCurrentSpeed">
-    <configuration name="BicycleTest.shouldAccelerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BicycleTest.shouldAccelerateAndBrakeCorrect">
+    <configuration name="BicycleTest.shouldAccelerateAndBrakeCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BicycleTest" />
-      <option name="METHOD_NAME" value="shouldAccelerate" />
+      <option name="METHOD_NAME" value="shouldAccelerateAndBrakeCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,12 +123,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpecsTest.bicycleSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="specs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="specs" />
+      <option name="MAIN_CLASS_NAME" value="specs.SpecsTest" />
+      <option name="METHOD_NAME" value="bicycleSpecification" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BicycleTest.shouldAccelerateAndBrakeCorrect" />
+        <item itemvalue="JUnit.SpecsTest.bicycleSpecification" />
         <item itemvalue="JUnit.BicycleTest.showCurrentSpeed" />
         <item itemvalue="JUnit.BicycleTest.shouldStop" />
         <item itemvalue="JUnit.BicycleTest.shouldBrake" />
-        <item itemvalue="JUnit.BicycleTest.shouldAccelerate" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +162,7 @@
       <workItem from="1587401820334" duration="4133000" />
       <workItem from="1587429928382" duration="6021000" />
       <workItem from="1588163389674" duration="13199000" />
-      <workItem from="1588244538220" duration="4790000" />
+      <workItem from="1588244538220" duration="7727000" />
     </task>
     <task id="LOCAL-00001" summary="intellij commit">
       <created>1587435655561</created>
@@ -183,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588188145807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="intellij commit 30 apr 2020">
+      <created>1588250798666</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588250798666</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,30 +246,30 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="370" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.770@0.0.1280.770" timestamp="1588165396413" />
-    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1588250497867">
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1588250793341">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1280.770@0.0.1280.770" timestamp="1588250497867" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1280.770@0.0.1280.770" timestamp="1588250793341" />
     <state x="441" y="140" key="FileChooserDialogImpl" timestamp="1588164230716">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="441" y="140" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1588164230716" />
-    <state width="1237" height="241" key="GridCell.Tab.0.bottom" timestamp="1588250438501">
+    <state width="1237" height="241" key="GridCell.Tab.0.bottom" timestamp="1588255024980">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="241" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1588250438501" />
-    <state width="1237" height="241" key="GridCell.Tab.0.center" timestamp="1588250438500">
+    <state width="1237" height="241" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1588255024980" />
+    <state width="1237" height="241" key="GridCell.Tab.0.center" timestamp="1588255024979">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="241" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1588250438500" />
-    <state width="1237" height="241" key="GridCell.Tab.0.left" timestamp="1588250438500">
+    <state width="1237" height="241" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1588255024979" />
+    <state width="1237" height="241" key="GridCell.Tab.0.left" timestamp="1588255024979">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="241" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1588250438500" />
-    <state width="1237" height="241" key="GridCell.Tab.0.right" timestamp="1588250438501">
+    <state width="1237" height="241" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1588255024979" />
+    <state width="1237" height="241" key="GridCell.Tab.0.right" timestamp="1588255024979">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="241" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1588250438501" />
+    <state width="1237" height="241" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1588255024979" />
     <state width="1237" height="240" key="GridCell.Tab.1.bottom" timestamp="1588245971785">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
@@ -260,17 +290,17 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1588164236606" />
-    <state x="232" y="118" key="Vcs.Push.Dialog.v2" timestamp="1588188160708">
+    <state x="232" y="118" key="Vcs.Push.Dialog.v2" timestamp="1588250818172">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="232" y="118" key="Vcs.Push.Dialog.v2/0.0.1280.770@0.0.1280.770" timestamp="1588188160708" />
+    <state x="232" y="118" key="Vcs.Push.Dialog.v2/0.0.1280.770@0.0.1280.770" timestamp="1588250818172" />
     <state x="344" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588165681651">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="344" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.770@0.0.1280.770" timestamp="1588165681651" />
-    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588250460102">
+    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588255029136">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.770@0.0.1280.770" timestamp="1588250460102" />
+    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.770@0.0.1280.770" timestamp="1588255029136" />
   </component>
 </project>

@@ -1,6 +1,9 @@
-package bicycles;
+package bicycles.rides;
 
-public class BikeRideOne implements BikeRide{
+import bicycles.Bicycle;
+import bicycles.BikeRide;
+
+public class BikeRideOne implements BikeRide {
 
     @Override
     public void ride(Bicycle bicycle) {

@@ -2,6 +2,11 @@ import bicycles.*;
 import bicycles.model.MountainBike;
 import bicycles.model.RoadBike;
 import bicycles.model.Tandem;
+import bicycles.rides.BikeRideOne;
+import bicycles.rides.BikeRideThree;
+import bicycles.rides.BikeRideTwo;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -41,6 +46,26 @@ public class BicycleTest {
     }
 
     @Test
+    public void shouldAccelerateAndBrakeCorrect() {
+
+        RoadBike roadBike = new RoadBike();
+        roadBike.accelerate();
+        roadBike.brake();
+        assertEquals(2, roadBike.currentSpeed());
+
+        MountainBike mountainBike = new MountainBike();
+        mountainBike.accelerate();
+        mountainBike.brake();
+        assertEquals(2, mountainBike.currentSpeed());
+
+        Tandem tandem = new Tandem();
+        tandem.accelerate();
+        tandem.brake();
+        assertEquals(2, tandem.currentSpeed());
+
+    }
+
+    @Test
     public void shouldStop(){
 
         RoadBike roadBikeStop = new RoadBike();
@@ -74,22 +99,4 @@ public class BicycleTest {
 
     }
 
-    @Test
-    public void bicycleSpecification(){
-
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11,-4, BicycleType.RoadBike);
-        Bicycle roadBike = new BicycleFromSpec(roadBikeSpec);
-        BikeRideOne bikeRideOne = new BikeRideOne();
-        bikeRideOne.ride(roadBike);
-
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5,-3, BicycleType.MountainBike);
-        Bicycle mountainsBike = new BicycleFromSpec(mountainBikeSpec);
-        BikeRideOne bikeRideTwo = new BikeRideTwo();
-        bikeRideTwo.ride(mountainsBike);
-
-        BicycleSpecification tandemSpec = new BicycleSpecification(12,-7, BicycleType.Tandem);
-        Bicycle tadndem = new BicycleFromSpec(tandemSpec);
-        BikeRideOne bikeRideThree = new BikeRideThree();
-        bikeRideThree.ride(tadndem);
-    }
 }
