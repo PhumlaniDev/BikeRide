@@ -6,8 +6,8 @@ import bicycles.BicycleType;
 
 public class RoadBike extends BicycleBase {
 
-    private int increaseAcceleration;
-    private int braking;
+    private int increaseAcceleration = 11;
+    private int braking = -4;
 
     @Override
     public int accelerate() {

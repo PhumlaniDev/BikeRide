@@ -6,8 +6,8 @@ import bicycles.BicycleType;
 
 public class Tandem extends BicycleBase implements Bicycle {
 
-    private int increaseAcceleration;
-    private int braking;
+    private int increaseAcceleration = 12;
+    private int braking = -7;
 
     @Override
     public int accelerate() {

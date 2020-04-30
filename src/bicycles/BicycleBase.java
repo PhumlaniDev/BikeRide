@@ -5,14 +5,14 @@ public abstract class BicycleBase implements Bicycle{
     private int speed;
 
     protected int changeSpeed(int change){
-        return speed += change;
+        return change += speed;
     }
 
     public int currentSpeed(){
-        return 0;
+        return this.speed;
     }
 
     public int stop(){
-        return 0;
+        return this.speed = 0;
     }
 }
