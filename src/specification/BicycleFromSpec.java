@@ -4,7 +4,7 @@ import bicycles.Bicycle;
 import bicycles.BicycleBase;
 import models.BicycleType;
 
-public class BicycleFromSpec extends BicycleBase implements Bicycle {
+public class BicycleFromSpec extends BicycleBase implements Bicycle{
 
     private int accelerationSpeed;
     private int brakeSpeed;

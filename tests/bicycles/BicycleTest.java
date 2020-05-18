@@ -59,7 +59,7 @@ public class BicycleTest {
         roadBikeMultipleAccelerateAndBrake.brake();
         assertEquals(36,roadBikeMultipleAccelerateAndBrake.currentSpeed());
 
-        /*MountainBike mountainBikeMultipleAccelerateAndBrake = new MountainBike();
+        MountainBike mountainBikeMultipleAccelerateAndBrake = new MountainBike();
         roadBikeMultipleAccelerateAndBrake.accelerate();
         roadBikeMultipleAccelerateAndBrake.accelerate();
         roadBikeMultipleAccelerateAndBrake.accelerate();
@@ -71,7 +71,7 @@ public class BicycleTest {
 
         TandemBike tandemMultipleAccelerateAndBrake = new TandemBike();
         tandemMultipleAccelerateAndBrake.accelerate();
-        assertEquals(12,tandemMultipleAccelerateAndBrake.currentSpeed());*/
+        assertEquals(12,tandemMultipleAccelerateAndBrake.currentSpeed());
     }
 
     @Test
