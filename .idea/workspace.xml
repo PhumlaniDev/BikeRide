@@ -19,27 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="intellij commit 30 apr 2020">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
+    <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="intellij commit 18 may 2020">
       <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/model/MountainBike.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/model/RoadBike.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/model/Tandem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/rides/BikeRideOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/rides/BikeRideThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/rides/BikeRideTwo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/specification/BicycleFromSpec.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/specification/BicycleSpecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/TandemBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/TandemBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/specification/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specification/BicycleFromSpec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/BicycleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/rides/RideTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/specs/BicycleSpecificationTetst.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/specs/BicycleSpecificationTetst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/specs/SpecsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +189,7 @@
       <workItem from="1588244538220" duration="9590000" />
       <workItem from="1589578908399" duration="1017000" />
       <workItem from="1589632900593" duration="734000" />
-      <workItem from="1589821377691" duration="2446000" />
+      <workItem from="1589821377691" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="intellij commit">
       <created>1587435655561</created>
@@ -258,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588255127690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="intellij commit 18 may 2020">
+      <created>1589825498298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589825498299</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +276,8 @@
     <MESSAGE value="intellij commit" />
     <MESSAGE value="intellij commit 29 apr 2020" />
     <MESSAGE value="intellij commit 30 apr 2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij commit 30 apr 2020" />
+    <MESSAGE value="intellij commit 18 may 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij commit 18 may 2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1588187925535">
@@ -343,10 +340,10 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1588164236606" />
-    <state x="232" y="118" key="Vcs.Push.Dialog.v2" timestamp="1589579062075">
+    <state x="371" y="114" key="Vcs.Push.Dialog.v2" timestamp="1589825541151">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="232" y="118" key="Vcs.Push.Dialog.v2/0.0.1280.770@0.0.1280.770" timestamp="1589579062075" />
+    <state x="371" y="114" key="Vcs.Push.Dialog.v2/0.0.1280.770@0.0.1280.770" timestamp="1589825541151" />
     <state x="344" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588165681651">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
