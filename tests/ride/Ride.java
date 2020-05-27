@@ -1,18 +1,18 @@
 package ride;
 
 import bicycles.Bicycle;
-import models.BicycleType;
+import bicycles.models.BicycleType;
 import org.junit.jupiter.api.Test;
-import rides.BikeRide;
-import rides.BikeRideOne;
-import rides.BikeRideThree;
-import rides.BikeRideTwo;
-import specification.BicycleFromSpec;
-import specification.BicycleSpecification;
+import bicycles.rides.BikeRide;
+import bicycles.rides.BikeRideOne;
+import bicycles.rides.BikeRideThree;
+import bicycles.rides.BikeRideTwo;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RideTest {
+public class Ride {
 
     @Test
     public void shouldBikeRideOne(){

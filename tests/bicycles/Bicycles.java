@@ -1,13 +1,13 @@
 package bicycles;
 
-import models.MountainBike;
-import models.RoadBike;
-import models.TandemBike;
+import bicycles.models.MountainBike;
+import bicycles.models.RoadBike;
+import bicycles.models.TandemBike;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BicycleTest {
+public class Bicycles {
 
     @Test
     public void shouldAccelerate(){

@@ -20,15 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e713d54-1b41-49cc-a4bf-86b6f08dbe00" name="Default Changelist" comment="intellij commit 18 may 2020">
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/model/MountainBike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/model/RoadBike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/model/Tandem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/specification/BicycleFromSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/specification/BicycleSpecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/BicycleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BicycleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/BicycleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/RoadBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/TandemBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/TandemBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rides/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rides/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rides/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rides/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rides/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/FunRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/specification/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/specification/BicycleFromSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/specification/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/specification/BicycleSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/Bicycles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ride/RideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ride/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/specs/BicycleSpecificationTetst.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/specs/Specification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,60 +84,47 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bicycles" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bicycles" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RideTest.shouldBikeRideOne">
-    <configuration name="BicycleSpecificationTetst.bicycleSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Ride.shouldBikeRideOne">
+    <configuration name="Bicycle.shouldBrake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="specs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="specs" />
-      <option name="MAIN_CLASS_NAME" value="specs.BicycleSpecificationTetst" />
-      <option name="METHOD_NAME" value="bicycleSpecification" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BicycleTest.shouldBrake (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.Bicycle" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleTest" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.Bicycle" />
       <option name="METHOD_NAME" value="shouldBrake" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BicycleTest.shouldStop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Bicycle.shouldStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.Bicycle" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleTest" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.Bicycle" />
       <option name="METHOD_NAME" value="shouldStop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RideTest.shouldBikeRideOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ride.shouldBikeRideOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +133,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ride" />
-      <option name="MAIN_CLASS_NAME" value="ride.RideTest" />
+      <option name="MAIN_CLASS_NAME" value="ride.Ride" />
       <option name="METHOD_NAME" value="shouldBikeRideOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Specification.bicycleSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="specs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="specs" />
+      <option name="MAIN_CLASS_NAME" value="specs.Specification" />
+      <option name="METHOD_NAME" value="bicycleSpecification" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,10 +174,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RideTest.shouldBikeRideOne" />
-        <item itemvalue="JUnit.BicycleSpecificationTetst.bicycleSpecification" />
-        <item itemvalue="JUnit.BicycleTest.shouldStop (1)" />
-        <item itemvalue="JUnit.BicycleTest.shouldBrake (1)" />
+        <item itemvalue="JUnit.Ride.shouldBikeRideOne" />
+        <item itemvalue="JUnit.BicycleSpecification.bicycleSpecification" />
+        <item itemvalue="JUnit.Bicycle.shouldStop" />
+        <item itemvalue="JUnit.Bicycle.shouldBrake" />
         <item itemvalue="JUnit.SpecsTest.bicycleSpecification" />
       </list>
     </recent_temporary>
@@ -190,6 +199,7 @@
       <workItem from="1589578908399" duration="1017000" />
       <workItem from="1589632900593" duration="734000" />
       <workItem from="1589821377691" duration="2791000" />
+      <workItem from="1590584229513" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="intellij commit">
       <created>1587435655561</created>
@@ -284,10 +294,26 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="445" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1588187925535" />
+    <state x="462" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590584303732">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="462" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.770@0.0.1280.770" timestamp="1590584303732" />
+    <state x="436" y="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1590584310849">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="436" y="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.770@0.0.1280.770" timestamp="1590584310849" />
+    <state x="389" y="62" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590585371175">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="389" y="62" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.770@0.0.1280.770" timestamp="1590585371175" />
     <state x="370" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589579314102">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="370" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.770@0.0.1280.770" timestamp="1589579314102" />
+    <state x="370" y="132" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590584464423">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="370" y="132" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.770@0.0.1280.770" timestamp="1590584464423" />
     <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1588255123029">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
@@ -348,10 +374,10 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="344" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.770@0.0.1280.770" timestamp="1588165681651" />
-    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589823078936">
+    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590585873205">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.770@0.0.1280.770" timestamp="1589823078936" />
+    <state x="449" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.770@0.0.1280.770" timestamp="1590585873205" />
     <state x="468" y="300" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1589579041595">
       <screen x="0" y="0" width="1280" height="770" />
     </state>

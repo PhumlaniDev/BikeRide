@@ -1,6 +1,6 @@
-package specification;
+package bicycles.specification;
 
-import models.BicycleType;
+import bicycles.models.BicycleType;
 
 public class BicycleSpecification {
 
@@ -12,9 +12,6 @@ public class BicycleSpecification {
         this.accelerationSpeed = accelerationSpeed;
         this.brakeSpeed = brakeSpeed;
         this.bicycleType = bicycleType;
-    }
-
-    public BicycleSpecification(BicycleSpecification roadBikeSpec) {
     }
 
     public int getAccelerationSpeed(){

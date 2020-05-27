@@ -1,16 +1,18 @@
-package models;
+package bicycles.models;
 
 import bicycles.BicycleBase;
 
-public class TandemBike extends BicycleBase {
+public class RoadBike extends BicycleBase {
 
     @Override
     public void accelerate() {
-        changeSpeed(12);
+        changeSpeed(11);
     }
 
     @Override
     public void brake() {
-        changeSpeed(-7);
+        changeSpeed(-4);
+
     }
+
 }
