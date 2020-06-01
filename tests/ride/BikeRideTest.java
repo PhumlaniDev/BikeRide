@@ -12,7 +12,7 @@ import bicycles.specification.BicycleSpecification;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Ride {
+public class BikeRideTest {
 
     @Test
     public void shouldBikeRideOne(){

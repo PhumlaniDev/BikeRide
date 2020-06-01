@@ -7,7 +7,7 @@ import bicycles.specification.BicycleFromSpec;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Specification {
+public class BicycleSpecificationTest {
 
     @Test
     public void bicycleSpecification(){
