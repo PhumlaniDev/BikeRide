@@ -7,19 +7,19 @@ import java.util.ArrayList;
 
 public class FunRide {
 
-    private final ArrayList<Bicycle> bicycleList = new ArrayList<>();
+    private final ArrayList<BicycleType> bicycleList = new ArrayList<>();
     private final int maximumNumberOfBikes;
 
     public FunRide(int maximumNumberOfBikes) {
         this.maximumNumberOfBikes = maximumNumberOfBikes;
     }
 
-    public String accept(Bicycle bicycle){
+    public String accept(BicycleType bicycleType){
         String accepted = "Accepted";
         String rejected = "Rejected";
 
-        if (bicycleList.size() < maximumNumberOfBikes && !bicycleList.contains(bicycle)){
-            bicycleList.add(bicycle);
+        if (bicycleList.size() < maximumNumberOfBikes && !bicycleList.contains(bicycleType)){
+            bicycleList.add(bicycleType);
 
             return accepted;
         }
@@ -36,8 +36,8 @@ public class FunRide {
     public int getCountForType(BicycleType bicycleType){
         int count = 0;
 
-        for (Bicycle bicycle: bicycleList) {
-            if (bicycle.equals(bicycleType)) {
+        for (BicycleType bicycleType1: bicycleList) {
+            if (bicycleType1.equals(bicycleType)) {
                 count++;
             }
         }

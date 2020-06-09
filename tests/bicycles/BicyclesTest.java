@@ -80,7 +80,7 @@ public class BicyclesTest {
         RoadBike roadBikeBrake = new RoadBike();
         roadBikeBrake.brake();
         roadBikeBrake.brake();
-        assertEquals(4,roadBikeBrake.currentSpeed());
+        assertEquals(8,roadBikeBrake.currentSpeed());
 
         MountainBike mountainBikeBrake = new MountainBike();
         mountainBikeBrake.brake();
