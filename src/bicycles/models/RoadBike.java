@@ -11,7 +11,7 @@ public class RoadBike extends BicycleBase {
 
     @Override
     public void brake() {
-        changeSpeed(4);
+        changeSpeed(-4);
     }
 
 }

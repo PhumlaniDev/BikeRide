@@ -60,14 +60,14 @@ public class BicyclesTest {
         assertEquals(36,roadBikeMultipleAccelerateAndBrake.currentSpeed());
 
         MountainBike mountainBikeMultipleAccelerateAndBrake = new MountainBike();
-        roadBikeMultipleAccelerateAndBrake.accelerate();
-        roadBikeMultipleAccelerateAndBrake.accelerate();
-        roadBikeMultipleAccelerateAndBrake.accelerate();
-        roadBikeMultipleAccelerateAndBrake.brake();
-        roadBikeMultipleAccelerateAndBrake.accelerate();
-        roadBikeMultipleAccelerateAndBrake.brake();
-        roadBikeMultipleAccelerateAndBrake.brake();
-        assertEquals(5,mountainBikeMultipleAccelerateAndBrake.currentSpeed());
+        mountainBikeMultipleAccelerateAndBrake.accelerate();
+        mountainBikeMultipleAccelerateAndBrake.accelerate();
+        mountainBikeMultipleAccelerateAndBrake.accelerate();
+        mountainBikeMultipleAccelerateAndBrake.brake();
+        mountainBikeMultipleAccelerateAndBrake.accelerate();
+        mountainBikeMultipleAccelerateAndBrake.brake();
+        mountainBikeMultipleAccelerateAndBrake.brake();
+        assertEquals(11,mountainBikeMultipleAccelerateAndBrake.currentSpeed());
 
         TandemBike tandemMultipleAccelerateAndBrake = new TandemBike();
         tandemMultipleAccelerateAndBrake.accelerate();
@@ -80,7 +80,7 @@ public class BicyclesTest {
         RoadBike roadBikeBrake = new RoadBike();
         roadBikeBrake.brake();
         roadBikeBrake.brake();
-        assertEquals(8,roadBikeBrake.currentSpeed());
+        assertEquals(-8,roadBikeBrake.currentSpeed());
 
         MountainBike mountainBikeBrake = new MountainBike();
         mountainBikeBrake.brake();
