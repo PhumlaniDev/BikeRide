@@ -14,6 +14,5 @@ public class BikeRideOne implements BikeRide {
     public void ride() {
         this.bicycle.accelerate();
         this.bicycle.brake();
-        System.out.println(bicycle.currentSpeed());
     }
 }

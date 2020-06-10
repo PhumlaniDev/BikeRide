@@ -17,6 +17,5 @@ public class BikeRideTwo implements BikeRide {
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.brake();
-        System.out.println(bicycle.currentSpeed());
     }
 }
